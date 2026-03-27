@@ -1,0 +1,74 @@
+/* Universal Styling */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styling */
+header nav,
+header nav ul {
+  display: flex;
+}
+/* Header Styling */
+header,
+header nav {
+  width: 100%;
+  height: 90px;
+  align-items: center;
+  background-color: aqua;
+}
+
+/* Navigation Styling */
+header nav {
+  justify-content: space-around;
+}
+
+header nav ul {
+  justify-content: space-beteen;
+  gap: 30px;
+  list-style: none;
+}
+
+header nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav ul li:hover a {
+  opacity: 0.4;
+  /* color: white;
+  padding: 2px 3px;
+  background-color: blue;  */
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+.btn:active {
+  opacity: 0.4;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  animation:;
+}
+
+.hero-text {
+  width: 500px;
+  padding-left: 100px;
+  border: 1px solid blue;
+}
+
+@keyframes move {
+}
