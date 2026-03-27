@@ -41,7 +41,8 @@ header nav ul li:hover a {
   background-color: blue;  */
 }
 
-.btn {
+.btn,
+.btn2 {
   padding: 10px 20px;
   border: 1px solid black;
   border-radius: 15px;
@@ -61,14 +62,19 @@ header nav ul li:hover a {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
-  animation:;
 }
 
-.hero-text {
+.textbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
   width: 500px;
-  padding-left: 100px;
-  border: 1px solid blue;
+  margin-left: 30px;
 }
 
-@keyframes move {
+.btn2 {
+  background-color: cyan;
+  border: 2px solid cyan;
+  cursor: pointer;
 }
