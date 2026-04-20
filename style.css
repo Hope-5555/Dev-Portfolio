@@ -118,9 +118,14 @@ button:active {
   margin-left: 30px;
 }
 
-.textbox span {
+#typed {
   color: var(--primary-color);
   font-size: 1.3em;
+}
+
+/* JavaScript inbuld class for the cursor */
+.typed-cursor {
+  color: cyan;
 }
 
 .textbox p {
