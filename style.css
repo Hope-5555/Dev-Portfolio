@@ -595,14 +595,14 @@ footer p a:hover {
 
   /* The Service-Section */
   .service-box {
-    width: 70%;
+    width: 90%;
     height: 300px;
     padding: 15px;
   }
 
   /* Latest Projects */
   .project {
-    width: 250px;
+    width: 90%;
     height: 210px;
   }
 
@@ -612,7 +612,7 @@ footer p a:hover {
 
   /* Contact Section */
   form {
-    width: 390px;
+    width: 80%;
   }
 
   form textarea {
