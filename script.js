@@ -1,11 +1,11 @@
 var typed = new Typed("#typed", {
   strings: [
     "Web Developer",
-    "wordpress",
+    "MERN Stack Developer",
+    "Wordpress Developer",
     "Graphic Designer",
-    "UI/UX Design",
-    "Aspiring Backend Development",
-    "Photography/Photo Editing",
+    "UI/UX Designer",
+    "Photographer/Photo Editor",
   ],
   typeSpeed: 50,
   backSpeed: 50,

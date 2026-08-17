@@ -91,6 +91,10 @@ header nav ul li:hover a {
   cursor: pointer;
 }
 
+.btn2{
+  width: 100%;
+}
+
 button:active {
   opacity: 0.4;
 }
